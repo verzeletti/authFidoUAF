@@ -3,7 +3,7 @@
 Baseado no módulo authYubiKey do simpleSAMLphp, o authFidoUAF (modules/authFidoUAF) foi escrito para auxiliar na autenticação do agente do usuário (https://github.com/verzeletti/mID-BR), desenvolvido como um protótipo.
 
 
-
+----------------------------
 Ao configurar o simpleSAMLphp, incluir no arquivo "config/authsources.php" as seguintes linhas:
 
 
@@ -26,5 +26,5 @@ Ao configurar o simpleSAMLphp, incluir no arquivo "config/authsources.php" as se
   ),
 
 
-
-Incluir no diretório "www" do simpleSAMLphp as interfaces REST (www/fidouaf) escritas em PHP, as quais permitirão a comunicação entre o mID-BR <-> simpleSAMLphp <-> FidoAUF_DockerServer.
+----------------------------
+Incluir no diretório "www" do simpleSAMLphp as interfaces REST (www/fidouaf) escritas em PHP, as quais permitirão a comunicação entre o mID-BR <-> simpleSAMLphp <-> FidoUAF_DockerServer.
